@@ -1,9 +1,9 @@
 package main
 
 import (
-"fmt"
-"sort"
-"strconv"
+	"fmt"
+	"sort"
+	"strconv"
 )
 
 func main() {
@@ -13,7 +13,7 @@ var input string
 sli := make([]int, 3)
 
 //For loop prompting user to enter an integer
-for range sli {
+for {
 fmt.Println("Please enter an integer or enter x to exit:")
 fmt.Scan(&input)
 //If the user enters the character "x", the program quits
