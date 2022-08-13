@@ -1,8 +1,8 @@
 package main
 
 import (
-"fmt"
-"encoding/json"
+	"encoding/json"
+	"fmt"
 )
 
 func main() {
@@ -24,6 +24,6 @@ idMap = map[string]string {
     "address": addrInput}
 //Creating a JSON object from the idMap
 jsonObj, _ := json.Marshal(idMap)
-//Printing the JSON object
+//Printing the JSON object as a string
 fmt.Println(string(jsonObj))
 }
