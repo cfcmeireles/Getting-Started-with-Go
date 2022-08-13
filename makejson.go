@@ -20,8 +20,8 @@ fmt.Scan(&addrInput)
 idMap = make(map[string]string)
 //Defining "name" and "address" as keys in the map with nameInput and addrInput as values
 idMap = map[string]string {
-	"name": nameInput,
-    "address": addrInput}
+"name": nameInput,
+"address": addrInput}
 //Creating a JSON object from the idMap
 jsonObj, _ := json.Marshal(idMap)
 //Printing the JSON object as a string
