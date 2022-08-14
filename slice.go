@@ -28,5 +28,5 @@ sli = append(sli, userInput)
 //Sorting integers in order and printing slice
 sort.Ints(sli[:])
 fmt.Println(sli)
-}
+ }
 }
