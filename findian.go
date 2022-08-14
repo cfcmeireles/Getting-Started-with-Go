@@ -1,8 +1,8 @@
 package main
 
 import (
-"fmt"
-"strings"
+	"fmt"
+	"strings"
 )
 
 func main() {
@@ -19,5 +19,5 @@ if strings.HasPrefix(userInput, "i") && strings.Contains(userInput, "a") && stri
 	fmt.Println("Found!")
 } else {
 	fmt.Println("Not Found!")
-}
+ }
 }
